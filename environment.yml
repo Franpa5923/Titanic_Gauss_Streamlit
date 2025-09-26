@@ -1,0 +1,17 @@
+name: titanic_streamlit
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - streamlit=1.50.0
+  - pandas=2.3.2
+  - numpy=2.0.1
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - pip
+  - pip:
+    - plotly
+    - altair
